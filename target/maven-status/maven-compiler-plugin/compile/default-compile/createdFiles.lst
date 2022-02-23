@@ -1,0 +1,5 @@
+org\mycompany\FromCSVFileToBindyDataFormat.class
+org\mycompany\model\Student.class
+org\mycompany\MyBean.class
+org\mycompany\MyBean$Status.class
+org\mycompany\Application.class
