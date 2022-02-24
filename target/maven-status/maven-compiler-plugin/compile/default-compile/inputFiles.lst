@@ -1,4 +1,7 @@
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Student.java
-C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\FromCSVFileToBindyDataFormat.java
-C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\MyBean.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Employee.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromXMLFileToJSON.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\EmpProcessor.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\MyBean.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\Application.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromCSVFileToBindyDataFormat.java

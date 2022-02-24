@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
-	<bean class="org.mycompany.MyBean" id="myBean" />
-	<camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
-		<packageScan>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
+    <bean class="org.mycompany.processors.MyBean" id="myBean"/>
+	<bean class="org.mycompany.processors.EmpProcessor" id="employeeBean"/>
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+        <packageScan>
             <package>org.mycompany</package>
         </packageScan>
         <endpoint id="csvDirectory" uri="file:src/main/resources/csv?noop=true"/>
-	</camelContext>
+		<endpoint id="xmlDirectory" uri="file:src/main/resources/xml?noop=true"/>
+    </camelContext>
 </beans>
