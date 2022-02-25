@@ -18,8 +18,7 @@ public class FromXMLFileToJSON extends RouteBuilder{
 
 	@EndpointInject(ref="xmlDirectory")
 	Endpoint sourceUri;
-	
-	@Override
+
 	public void configure() throws Exception {
 			
 		// XML Data Format

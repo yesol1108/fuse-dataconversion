@@ -1,7 +1,12 @@
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromJsonToFixed.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Student.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Employee.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromXMLFileToJSON.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\EmpProcessor.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\FruitProcessor.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\JsonDataRequest.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\FixedLengthRequest.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\MyBean.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\FixedDao.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\Application.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromCSVFileToBindyDataFormat.java

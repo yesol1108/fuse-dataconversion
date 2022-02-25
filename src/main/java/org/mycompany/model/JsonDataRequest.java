@@ -1,5 +1,6 @@
 package org.mycompany.model;
 
+import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
 import org.apache.camel.dataformat.bindy.annotation.DataField;
 import org.apache.camel.dataformat.bindy.annotation.FixedLengthRecord;
 import org.apache.camel.dataformat.bindy.annotation.OneToMany;
@@ -7,7 +8,8 @@ import org.apache.camel.dataformat.bindy.annotation.OneToMany;
 import java.util.List;
 
 @FixedLengthRecord()
-public class FruitList {
+//@CsvRecord(separator=",")
+public class JsonDataRequest {
     @DataField(pos = 1, length = 5, align = "L", paddingChar = ' ')
     public String blockType;
 
@@ -28,5 +30,4 @@ public class FruitList {
 
     @OneToMany
     public List<FixedDao> noa;
-
 }

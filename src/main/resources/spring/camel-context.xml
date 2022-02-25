@@ -3,11 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
     <bean class="org.mycompany.processors.MyBean" id="myBean"/>
 	<bean class="org.mycompany.processors.EmpProcessor" id="employeeBean"/>
+    <bean class="org.mycompany.processors.FruitProcessor" id="fruitBean"/>
     <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
         <packageScan>
             <package>org.mycompany</package>
         </packageScan>
         <endpoint id="csvDirectory" uri="file:src/main/resources/csv?noop=true"/>
 		<endpoint id="xmlDirectory" uri="file:src/main/resources/xml?noop=true"/>
+        <endpoint id="jsonDirectory" uri="file:src/main/resources/json?noop=true"/>
+
     </camelContext>
 </beans>
