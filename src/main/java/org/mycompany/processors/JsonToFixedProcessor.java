@@ -5,13 +5,11 @@ import org.apache.camel.Processor;
 import org.mycompany.model.FixedDao;
 import org.mycompany.model.FixedLengthRequest;
 import org.mycompany.model.JsonDataRequest;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FruitProcessor implements Processor {
+public class JsonToFixedProcessor implements Processor {
 
     @Override
     public void process(Exchange exchange) throws Exception {

@@ -2,8 +2,8 @@ C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Student.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\Employee.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\routebuilder\FromXMLFileToJSON.java
+C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\JsonToFixedProcessor.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\EmpProcessor.java
-C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\FruitProcessor.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\JsonDataRequest.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\model\FixedLengthRequest.java
 C:\Users\yesol\workspace\dataconversion\src\main\java\org\mycompany\processors\MyBean.java

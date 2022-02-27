@@ -1,11 +1,11 @@
 org\mycompany\routebuilder\FromJsonToFixed.class
 org\mycompany\processors\EmpProcessor.class
-org\mycompany\processors\FruitProcessor.class
 org\mycompany\processors\MyBean$Status.class
 org\mycompany\routebuilder\FromXMLFileToJSON.class
 org\mycompany\model\Employee.class
 org\mycompany\routebuilder\FromCSVFileToBindyDataFormat.class
 org\mycompany\model\JsonDataRequest.class
+org\mycompany\processors\JsonToFixedProcessor.class
 org\mycompany\processors\MyBean.class
 org\mycompany\model\Student.class
 org\mycompany\model\FixedLengthRequest.class

@@ -8,7 +8,7 @@ import org.apache.camel.dataformat.bindy.annotation.OneToMany;
 import java.util.List;
 
 @FixedLengthRecord()
-//@CsvRecord(separator=",")
+@CsvRecord(separator=",")
 public class JsonDataRequest {
     @DataField(pos = 1, length = 5, align = "L", paddingChar = ' ')
     public String blockType;

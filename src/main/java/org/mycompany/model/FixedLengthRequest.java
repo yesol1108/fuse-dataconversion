@@ -4,8 +4,8 @@ import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
 import org.apache.camel.dataformat.bindy.annotation.DataField;
 import org.apache.camel.dataformat.bindy.annotation.FixedLengthRecord;
 
-@CsvRecord(separator=",")
 @FixedLengthRecord
+@CsvRecord(separator=",")
 public class FixedLengthRequest {
     @DataField(pos = 1, length = 5, align = "L", paddingChar = ' ')
     public String blockType;

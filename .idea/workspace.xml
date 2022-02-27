@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23aa6485-948e-4994-a151-5abe91024557" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mycompany/model/FixedLengthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mycompany/model/FixedLengthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mycompany/model/JsonDataRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mycompany/model/JsonDataRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mycompany/processors/FruitProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mycompany/processors/JsonToFixedProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mycompany/routebuilder/FromJsonToFixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mycompany/routebuilder/FromJsonToFixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/camel-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/camel-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +106,8 @@
       <workItem from="1645692145448" duration="832000" />
       <workItem from="1645696718356" duration="197000" />
       <workItem from="1645699965115" duration="1321000" />
-      <workItem from="1645770109016" duration="5255000" />
+      <workItem from="1645770109016" duration="5365000" />
+      <workItem from="1645973341955" duration="2038000" />
     </task>
     <servers />
   </component>
