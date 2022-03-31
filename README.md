@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Spring Boot Camel XML QuickStart
 
 This example demonstrates how to configure Camel routes in Spring Boot via
@@ -99,4 +98,3 @@ To run this quickstart as a standalone project on your local machine:
 * See the messages sent by Camel.
 =======
 # fuse-dataconversion
->>>>>>> 2b81806ee5011be1e5bfe337abc7fbb31c626242
